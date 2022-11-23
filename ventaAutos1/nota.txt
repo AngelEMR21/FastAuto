@@ -1,0 +1,1 @@
+Si no cargan correctamente los estilos es debido a la falta de compilación de Node para Sass
