@@ -1,0 +1,47 @@
+.alerta{
+    padding: .3rem;
+    text-align: center;
+    color: $blanco;
+    font-weight: $bold;
+    text-transform: uppercase;
+    margin: 1rem 0;
+
+    &.error{
+        background-color: $rojo;
+
+    }
+
+    &.exito{
+        background-color: $verde;
+
+    }
+}
+
+table.autos{
+    // border:  .5rem solid $grisOscuro;
+    text-align: center;
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+
+    thead{
+        border:  1rem solid $grisOscuro;
+        background-color: $verde;
+
+        th{
+            color: $blanco;
+            padding: 2rem;
+        }
+
+    }
+
+    .imagen-tabla{
+        width: 17rem;
+    }
+
+}
+
+.imagen-small{
+    width: 40rem;
+
+}
